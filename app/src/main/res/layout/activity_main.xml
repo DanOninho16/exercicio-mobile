@@ -37,12 +37,10 @@
             android:layout_height="wrap_content"
             android:text="@string/kg_to_pounds" />
         <RadioButton
-            android:id="@+id/option_eighteen_percent"
+            android:id="@+id/pounds_to_kg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/pounds_to_kg" />
-
-
     </RadioGroup>
     <Button
         android:id="@+id/calculate_button"
