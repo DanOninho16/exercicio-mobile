@@ -20,10 +20,10 @@ class MainActivity : AppCompatActivity() {
         val selectedId = binding.conversionOption.checkedRadioButtonId
         val conversionValue = when(selectedId) {
             R.id.kg_to_pounds -> 2.2
-            else 0.45
+            else -> 0.45
         }
         var convertedValue = conversionValue * cost
-        val formattedTip = NumberFormat.getCurrencyInstance().format(convertedValue)
-        binding.conversionResult.text = getString(R.string.conversion_amount, formattedTip)
+        val formattedConversion = NumberFormat.getCurrencyInstance().format(convertedValue)
+        binding.conversionResult.text = getString(R.string.conversion_amount, formattedConversion)
     }
 }
