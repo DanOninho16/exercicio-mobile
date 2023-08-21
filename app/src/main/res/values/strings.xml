@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">weight-conversor</string>
+    <string name="app_name">Weight-Conversor</string>
+    <string name="kg_to_pounds">Kg para Lbs</string>
+    <string name="service_question">Insira o preço</string>
+    <string name="value">Valor</string>
+    <string name="converter">O que deseja converter?</string>
+    <string name="pounds_to_kg">Lbs para Kg</string>
+    <string name="calculate">Calcular</string>
+    <string name="conversion_amount">Resultado: %s</string>
 </resources>
